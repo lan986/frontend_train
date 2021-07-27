@@ -1,0 +1,64 @@
+.part1{
+    background-image: url("images/me.jpg");
+    background-size: cover;
+    background-position:center center;
+}
+.main-color{
+    color:#ff206e;
+}
+.icons i{
+    border: 1px solid #222;
+    padding: 7px;
+}
+.icons i:hover{
+    color:#ff206e;
+    border-color: #ffffff;
+    transition:all 1s;
+}
+.title h2{
+    font-size: 5rem;
+    color: #f1f1ff;
+    
+}
+
+.service h2{
+    font-size: 5rem;
+    color:#222;
+}
+.service{
+    background-image: url("images/dark.jpg");
+}
+.service h3{
+  
+    color:#fff;
+}
+.service .boxes i{
+    background-color: black;
+    position: absolute;
+    bottom:100%;
+    left: 50%;
+    color: white;
+    border-radius:50%;
+   transform:translate(-50%,50%);
+    padding: 12px;
+    border: 2px solid white;
+}
+.service .boxes h4:after  {
+    content:'';
+    position: absolute;
+    top:30%;
+    left:40%;
+    background-color:#ff206e;
+    width:20%;
+    height:3px;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link
+{
+    background-color:transparent !important;
+    color:#ff206e;
+}
+
+.nav-pills .nav-link {
+    color:#000;
+    font-weight:600;
+}
